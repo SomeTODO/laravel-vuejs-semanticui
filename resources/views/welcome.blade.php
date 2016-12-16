@@ -9,6 +9,8 @@
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
+        
+        <link rel="stylesheet" href="{{ asset('vendor/bower/semantic/dist/semantic.min.css') }}" />
 
         <!-- Styles -->
         <style>
@@ -36,7 +38,7 @@
             }
 
             .top-right {
-                position: absolute;
+                position: relative;
                 right: 10px;
                 top: 18px;
             }
@@ -65,6 +67,9 @@
         </style>
     </head>
     <body>
+        <div id="app" class="top-right content">
+            <example></example>
+        </div>
         <div class="flex-center position-ref full-height">
             @if (Route::has('login'))
                 <div class="top-right links">
@@ -88,4 +93,5 @@
             </div>
         </div>
     </body>
+    <script src="{{ asset('js/app.js') }}"></script>
 </html>
