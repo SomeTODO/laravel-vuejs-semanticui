@@ -1,0 +1,15 @@
+{
+  "name": "untitled",
+  "private": true,
+  "dependencies": {
+    "html5shiv": "^3.7.3",
+    "semantic": "^2.2.6"
+  },
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_comsponents",
+    "test",
+    "tests"
+  ]
+}
