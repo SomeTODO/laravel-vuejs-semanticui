@@ -14,7 +14,7 @@
         <link rel="shortcut icon" href="{{ asset('favicon.ico') }}" />
         
         <link rel="stylesheet" href="{{ asset('vendor/bower/semantic/dist/semantic.min.css') }}" />
-        <link rel="stylesheet" href="{{ asset('css/main.css') }}" />
+        <link rel="stylesheet" href="{{ asset('css/app.css') }}" />
         
         @stack('styles')
     </head>
